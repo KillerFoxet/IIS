@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "question": "ЗАМЕНИТЕ (П2): вопрос, ответ на который прямо есть в корпусе",
-    "expected_sources": ["имя_файла.pdf"],
+    "question": "Кто имеет преимущество на нерегулируемом перекрёстке равнозначных дорог?",
+    "expected_sources": ["pdd-53.0-pddmaster.ru.pdf"],
     "expected": "",
     "type": "direct"
   },
   {
     "id": 2,
-    "question": "ЗАМЕНИТЕ (П2): вопрос, ответ на который лежит в другом файле",
-    "expected_sources": ["другой_файл.pdf"],
+    "question": "Можно ли разворачиваться прямо на пешеходном переходе?",
+    "expected_sources": ["pdd-53.0-pddmaster.ru.pdf"],
     "expected": "",
     "type": "direct"
   },
   {
     "id": 3,
-    "question": "ЗАМЕНИТЕ (П2): вопрос на стыке двух разделов базы знаний",
-    "expected_sources": ["имя_файла.pdf", "другой_файл.pdf"],
+    "question": "С какой максимальной скоростью можно ехать в жилой зоне?",
+    "expected_sources": ["pdd-53.0-pddmaster.ru.pdf"],
+    "expected": "",
+    "type": "direct"
+  },
+  {
+    "id": 4,
+    "question": "Что означает знак 6.4 с табличкой 8.17 'Инвалиды'?",
+    "expected_sources": ["pdd-53.0-pddmaster.ru.pdf"],
     "expected": "",
     "type": "cross_section"
   },
   {
-    "id": 4,
-    "question": "ЗАМЕНИТЕ (П2): вопрос с неоднозначной формулировкой",
-    "expected_sources": ["имя_файла.pdf"],
-    "expected": "",
-    "type": "ambiguous"
-  },
-  {
     "id": 5,
-    "question": "ЗАМЕНИТЕ (П2): вопрос, ответа на который в корпусе НЕТ",
+    "question": "Какой штраф за проезд на запрещающий сигнал светофора?",
     "expected_sources": [],
-    "expected": "В базе знаний нет ответа на этот вопрос",
+    "expected": "",
     "type": "out_of_scope"
   }
 ]

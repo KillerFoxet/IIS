@@ -1,11 +1,10 @@
 # Секреты — никогда в репозиторий (П7)
-.env
+.env*
 
 # Данные, порождаемые запуском
 data/chroma/
 data/raw/*
 !data/raw/README.md
-!data/raw/*.pdf
 *.db
 security_logs.txt
 
