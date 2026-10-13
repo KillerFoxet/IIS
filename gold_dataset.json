@@ -30,8 +30,8 @@
   {
     "id": 5,
     "question": "Какой штраф за проезд на запрещающий сигнал светофора?",
-    "expected_sources": [],
+    "expected_sources": ["koap.pdf"],
     "expected": "",
-    "type": "out_of_scope"
+    "type": "direct"
   }
 ]
